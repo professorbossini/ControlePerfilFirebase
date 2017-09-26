@@ -1,0 +1,6 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_text_view">12dp</dimen>
+    <dimen name="elevation_text_view">4dp</dimen>
+    <dimen name="margin_text_view">1dp</dimen>
+</resources>

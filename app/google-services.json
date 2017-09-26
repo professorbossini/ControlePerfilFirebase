@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "557983688433",
+    "firebase_url": "https://controleperfilfirebase.firebaseio.com",
+    "project_id": "controleperfilfirebase",
+    "storage_bucket": "controleperfilfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557983688433:android:515eeceffa43468f",
+        "android_client_info": {
+          "package_name": "br.com.bossini.controleperfilfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557983688433-be2l4pbbk1k22n1lbh53qvofvqgm53j9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.bossini.controleperfilfirebase",
+            "certificate_hash": "131f01e241308e568f2975de37cc5ffca26684c6"
+          }
+        },
+        {
+          "client_id": "557983688433-0219td62n4opjsstlf2l59h0nbbdg3aa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdrIHfotZvfdjWo7dntLDSelBeD7oFfhY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557983688433-0219td62n4opjsstlf2l59h0nbbdg3aa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

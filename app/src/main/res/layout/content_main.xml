@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:useDefaultMargins="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.bossini.controleperfilfirebase.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:columnCount="2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="@dimen/margin_text_view"
+        android:elevation="@dimen/elevation_text_view"
+        android:paddingBottom="@dimen/padding_text_view"
+        android:paddingTop="@dimen/padding_text_view"
+        android:text="@string/nome_text_view"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:id="@+id/nome_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginBottom="@dimen/margin_text_view"
+        android:background="@color/colorAccent"
+        android:elevation="@dimen/elevation_text_view"
+        android:paddingBottom="@dimen/padding_text_view"
+        android:paddingTop="@dimen/padding_text_view"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginBottom="@dimen/margin_text_view"
+        android:elevation="@dimen/elevation_text_view"
+        android:paddingBottom="@dimen/padding_text_view"
+        android:paddingTop="@dimen/padding_text_view"
+        android:text="@string/fone_text_view"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:id="@+id/fone_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:layout_marginBottom="@dimen/margin_text_view"
+        android:background="@color/colorAccent"
+        android:elevation="@dimen/elevation_text_view"
+        android:paddingBottom="@dimen/padding_text_view"
+        android:paddingTop="@dimen/padding_text_view"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:elevation="@dimen/elevation_text_view"
+        android:paddingBottom="@dimen/padding_text_view"
+        android:paddingTop="@dimen/padding_text_view"
+        android:text="@string/email_text_view"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:id="@+id/email_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:background="@color/colorAccent"
+        android:elevation="@dimen/elevation_text_view"
+        android:paddingBottom="@dimen/padding_text_view"
+        android:paddingTop="@dimen/padding_text_view"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    <ImageView
+        android:layout_gravity="center"
+        android:id="@+id/foto_image_view"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:layout_columnSpan="2"/>
+
+
+</GridLayout>

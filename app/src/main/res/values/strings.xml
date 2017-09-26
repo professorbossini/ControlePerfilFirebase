@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cadastro de Usuários Firebase</string>
+    <string name="action_settings">Configurações</string>
+    <string name="nome_text_view">Nome:</string>
+    <string name="fone_text_view">Fone:</string>
+    <string name="email_text_view">Email:</string>
+    <string name="explicacao_permissao_foto">É preciso permitir o uso da câmera para tirar fotos.</string>
+</resources>
